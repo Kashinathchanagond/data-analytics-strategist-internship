@@ -43,3 +43,4 @@ This project delivers an enterprise-grade strategic data analytics framework foc
 - **Heavy Outliers & Skewness:** Handled using 99th percentile Winsorization and `numpy.log1p` transformation.
 - **Data Leakage:** Prevented using strict temporal partitions (Train: Months 1–9, Evaluation: Months 10–12).
 - **Cold-Start Users:** Multi-purchase users routed to probabilistic models; single-order users routed to heuristic onboarding workflows.
+
